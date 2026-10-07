@@ -6,12 +6,14 @@ use App\Models\UserModel;
 
 class Users extends BaseController
 {
-    public function index()
+    public function profile(): string
     {
         $userModel = new UserModel();
 
-        $data['users'] = $userModel->findAll();
+        $data = [
+            'user' => $userModel->first()
+        ];
 
-        return view('users', $data);
+        return view('profile', $data);
     }
 }

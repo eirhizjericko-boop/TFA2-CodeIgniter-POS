@@ -1,15 +1,24 @@
-# CodeIgniter POS Database Application
+# Tasks for Today Management System
 
-A CodeIgniter 4 Point of Sale application connected to a MySQL database.
+A beginner-friendly CodeIgniter 4 MVC application for displaying and managing daily tasks.
 
-## Features
+## Pages
 
-- Customer Accounts page
-- User Accounts page
-- MySQL database connection
-- CodeIgniter Models
-- Query Builder database retrieval
-- Customer and user records stored in MySQL
+- `/` - Displays only tasks scheduled for today
+- `/tasks` - Displays all tasks ordered by date
+- `/profile` - Displays the demo user's profile
+- `/about` - Displays system information and developer name
+
+## Developer
+
+Eirhiz Jericko Maniego
+
+## Technologies
+
+- PHP
+- CodeIgniter 4
+- MySQL
+- HTML and CSS
 
 ## Database
 

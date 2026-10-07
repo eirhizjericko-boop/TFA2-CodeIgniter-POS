@@ -2,9 +2,13 @@
 
 use CodeIgniter\Router\RouteCollection;
 
-/** @var RouteCollection $routes */
+/**
+ * @var RouteCollection $routes
+ */
 
-$routes->get('/', 'Pages::index');
-$routes->get('about', 'Pages::about');
+$routes->get('/', 'Home::index');
+$routes->get('tasks', 'TaskController::index');
+$routes->get('profile', 'Users::profile');
+$routes->get('about', 'About::index');
+
 $routes->get('customers', 'Customers::index');
-$routes->get('users', 'Users::index');
